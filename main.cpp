@@ -12,7 +12,7 @@ int main(){
     int nScreenHeight = 30;
 
     BufferScreen bs(nScreenWidth, nScreenHeight, L"File Explorer");
-    FileExplorer fe("C:\\Users\\user\\Desktop");
+    FileExplorer fe;
 
     bs.hideCursor();
 
